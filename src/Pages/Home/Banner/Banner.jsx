@@ -40,7 +40,7 @@ const Banner = () => {
                <img src={img3} className="w-full rounded-xl" />
                 <div className="absolute w-1/2 rounded-xl text-white h-full  gap-5 left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0.00)] pl-24 pt-28">
                     <h2 className="text-6xl font-bold mb-8">Affordable <br /> Price For Car <br /> Servicing</h2>
-                    <p className="mb-8">There are many variations of passages of  available, but <br /> the majority have suffered alteration in some form</p>
+                    <p className="mb-8">There are many variations Of passages of  available, but <br /> the majority have suffered alteration in some form</p>
                     <div className="gap-5">
                         <button className="btn border-[#FF3811] bg-[#FF3811] text-white mr-5">Discover More</button>
                         <button className="btn btn-outline text-white border-white"> Latest Project</button>
