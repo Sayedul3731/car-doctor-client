@@ -30,7 +30,7 @@ const Bookings = () => {
                 </label>
               </th>
               <th>Image</th>
-              <th>Service</th>
+              <th>Services</th>
               <th>Date</th>
               <th>Price</th>
               <th>Status</th>
