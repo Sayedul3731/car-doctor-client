@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 const Service = ({ service }) => {
     const {img, price, title, _id} = service;
     return (
-        <div className="card card-compact bg-base-100 border p-6">
-            <figure><img src={img} alt="Shoes" /></figure>
+        <div className=" rounded-sm card-compact bg-base-100 border p-2">
+            <figure><img className='h-[200px] w-full' src={img} alt="Shoes" /></figure>
             <div className="">
                 <h2 className=" text-2xl font-bold mt-5">{title}</h2>
                 <div className=" flex justify-between mt-5">
@@ -14,7 +14,7 @@ const Service = ({ service }) => {
                     <button className="text-[#FF3811] text-2xl"><AiOutlineArrowRight></AiOutlineArrowRight></button>
                 </div>
                 <div>
-                    <Link to={`/checkout/${_id}`}><button className='btn bg-[#FF3811] text-white w-full mt-4'>Book Now</button></Link>
+                    <Link to={`/checkout/${_id}`}><button className='py-2 rounded-sm bg-[#FF3811] text-white w-full mt-4'>Book Now</button></Link>
                 </div>
             </div>
         </div>

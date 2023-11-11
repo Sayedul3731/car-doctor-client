@@ -7,7 +7,7 @@ const BookingsRow = ({ booking, bookings, setBookings }) => {
     const handleDelete = id => {
         const proceed = confirm('You are want to delete?')
         if(proceed){
-            fetch(`http://localhost:5000/bookings/${id}`, {
+            fetch(` http://localhost:5000/bookings/${id}`, {
                 method: "DELETE"
             })
             .then(res => res.json())
@@ -23,7 +23,7 @@ const BookingsRow = ({ booking, bookings, setBookings }) => {
     }
 
     const handleBookingConfirm = id => {
-        fetch(`http://localhost:5000/bookings/${id}`,{
+        fetch(` http://localhost:5000/bookings/${id}`,{
             method: "PATCH",
             headers: {
                 'content-type' : 'application/json'
